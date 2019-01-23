@@ -2,6 +2,8 @@
 
 This is the first Nimiq GPU miner that utilizes the standard Nano mining protocol and is compatible with all of the available nimiq pools.
 
+### Download 
+
 releases: https://github.com/NoncerPro/noncerpro-nimiq-cuda/releases
 
 Donation addresses
@@ -42,12 +44,12 @@ In addition to the above command line options, there is a miner.conf file which 
 
 Requirements
 ------------------------------------------
-Binary packages have been built with CUDA 10.0. You need to update your driver to the latest version in order to use them.
+Binary packages have been built with **CUDA 10.0**. You need to update your driver to the latest version in order to use them.
 
 The minimum supported Compute Capability is SM3.5. You can check your cards' SM support in the following link:
 https://developer.nvidia.com/cuda-gpus
 
-If you are using Windows, the minimum virtual memory must be set to the total amount of allocated gpu memory. So if you have 6 1080 tis and want to use 8GB on each card, you will need 48 GB of virtual memory. This only applies to Windows.
+If you are using Windows, the minimum virtual memory must be set to the total amount of allocated gpu memory. So if you have 6 x 1080 tis and want to use 8GB on each card, you will need 48 GB of virtual memory. This only applies to Windows.
 
 If you are running the noncerpro.exe file directly, make sure you have set UV_THREADPOOL_SIZE to atleast 32;
 
