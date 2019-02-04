@@ -4,6 +4,8 @@ This is the first Nimiq GPU miner that utilizes the standard Nano mining protoco
 
 ### Download 
 
+[![Github All Releases](https://img.shields.io/github/downloads/NoncerPro/noncerpro-nimiq-cuda/total.svg)]()
+
 releases: https://github.com/NoncerPro/noncerpro-nimiq-cuda/releases
 
 Donation addresses
