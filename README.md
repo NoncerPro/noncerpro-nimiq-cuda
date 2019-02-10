@@ -2,11 +2,18 @@
 
 This is the first Nimiq GPU miner that utilizes the standard Nano mining protocol and is compatible with all of the available nimiq pools.
 
-### Download 
+### Links 
 
 [![Github All Releases](https://img.shields.io/github/downloads/NoncerPro/noncerpro-nimiq-cuda/total.svg)]()
 
+Website: http://noncer.pro
+
+Discord server : https://discord.gg/buHphu
+
 releases: https://github.com/NoncerPro/noncerpro-nimiq-cuda/releases
+
+AMD miner: https://github.com/NoncerPro/noncerpro-nimiq-opencl/releases
+
 
 Donation addresses
 -------------------
