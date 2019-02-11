@@ -8,7 +8,7 @@ This is the first Nimiq GPU miner that utilizes the standard Nano mining protoco
 
 Website: http://noncer.pro
 
-Discord server : https://discord.gg/buHphu
+Discord server : https://discord.gg/mXnyrHa
 
 releases: https://github.com/NoncerPro/noncerpro-nimiq-cuda/releases
 
