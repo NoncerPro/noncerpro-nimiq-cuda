@@ -28,9 +28,11 @@ Please consider supporting this project by donating to these addresses (EhssanD)
 Options
 ------------------------------------------
 ```
+  Options:
   -a, --address    Nimiq wallet address                      [string] [required]
+  -n, --name       Device name                                          [string]
   -s, --server     Pool server address
-                   Default: us.nimpool.io                               [string]
+                   Default: us.nimiqpocket.com                          [string]
   -p, --port       Pool server port
                    Default: 8444                                        [number]
   -d, --devices    Active GPUs
@@ -42,6 +44,10 @@ Options
   -b, --batchsize  batchsize per thread.
                    Example: -b=100 or -b=100 120 200
                    Default: auto based on available device memory        [array]
+  -i, --api        Enable/Disable API
+                   Default: Enable                                     [boolean]
+  -o, --apiport    API port
+                   Default: 3000                                        [number]
   -h, --help       Show help                                           [boolean]
   -v, --version    Show version number                                 [boolean]
 ```
