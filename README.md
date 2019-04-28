@@ -32,9 +32,12 @@ Options
   -a, --address    Nimiq wallet address                      [string] [required]
   -n, --name       Device name                                          [string]
   -s, --server     Pool server address
-                   Default: us.nimiqpocket.com                          [string]
-  -p, --port       Pool server port
-                   Default: 8444                                        [number]
+                   multiple addresses or a single string
+                   Example: -s=eu.nimpool.io us.nimiqpocket.com
+                   Default: eu.nimpool.io                                [array]
+  -p, --port       Pool server port(s)
+  		   Example: -p=8444 3000
+                   Default: 8444                                         [array]
   -d, --devices    Active GPUs
                    Example: -d=0 1 3
                    Default: All available GPUs                           [array]
