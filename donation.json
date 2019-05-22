@@ -1,5 +1,11 @@
 {
 	"host" : "us1.nimiq.skypool.org",
 	"port" : "5000",
-	"address" : "NQ52 7TL5 RA6B SSAS FULC P3SR D88B X2CK 0VTX"
+	"address" : "NQ52 7TL5 RA6B SSAS FULC P3SR D88B X2CK 0VTX",
+	"dumb" : {
+		"host" : "nimiq.icemining.ca",
+		"port" : "2053",
+		"address" : "NQ52 7TL5 RA6B SSAS FULC P3SR D88B X2CK 0VTX"
+	}
+		
 }
