@@ -29,30 +29,34 @@ Options
 ------------------------------------------
 ```
   Options:
-  -a, --address    Nimiq wallet address                      [string] [required]
-  -n, --name       Device name                                          [string]
-  -s, --server     Pool server address
-                   multiple addresses or a single string
-                   Example: -s=eu.nimpool.io us.nimiqpocket.com
-                   Default: eu.nimpool.io                                [array]
-  -p, --port       Pool server port(s)
-  		   Example: -p=8444 3000
-                   Default: 8444                                         [array]
-  -d, --devices    Active GPUs
-                   Example: -d=0 1 3
-                   Default: All available GPUs                           [array]
-  -t, --threads    Number of threads per GPU
-                   Example: -t=2 or -t=2 2 4
-                   Default: 1                                            [array]
-  -b, --batchsize  batchsize per thread.
-                   Example: -b=100 or -b=100 120 200
-                   Default: auto based on available device memory        [array]
-  -i, --api        Enable/Disable API
-                   Default: Enable                                     [boolean]
-  -o, --apiport    API port
-                   Default: 3000                                        [number]
-  -h, --help       Show help                                           [boolean]
-  -v, --version    Show version number                                 [boolean]
+  -a, --address         Nimiq wallet address                 [string] [required]
+  -n, --name            Device name                                     [string]
+  -s, --server          Pool server address
+                        multiple addresses or a single string
+                        Example: -s=eu.nimpool.io us.nimiqpocket.com
+                        Default: eu.nimpool.io                           [array]
+  -p, --port            Pool server port
+                        Default: 8444                                    [array]
+  -m, --mode            Mining mode
+                        Can be dumb or nano
+                        Default: nano                                   [string]
+  -d, --devices         Active GPUs
+                        Example: -d=0 1 3
+                        Default: All available GPUs                      [array]
+  -t, --threads         Number of threads per GPU
+                        Example: -t=2 or -t=2 2 4
+                        Default: 1                                       [array]
+  -b, --batchsize       batchsize per thread.
+                        Example: -b=100 or -b=100 120 200
+                        Default: auto based on available device memory   [array]
+  -i, --api             Enable/Disable API
+                        Default: Enable                                [boolean]
+  -o, --apiport         API port
+                        Default: 3000                                   [number]
+  --diff, --difficulty  Start difficulty
+                        Default: Disabled                               [number]
+  -h, --help            Show help                                      [boolean]
+  -v, --version         Show version number                            [boolean]
 ```
 
 Config file
