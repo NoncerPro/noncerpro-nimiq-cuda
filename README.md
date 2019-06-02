@@ -38,7 +38,7 @@ Options
   -p, --port            Pool server port
                         Default: 8444                                    [array]
   -m, --mode            Mining mode
-                        Can be dumb or nano(dumb is like stratum)
+                        Can be dumb or nano(dumb is similar to stratum)
                         Default: nano                                   [string]
   -d, --devices         Active GPUs
                         Example: -d=0 1 3
