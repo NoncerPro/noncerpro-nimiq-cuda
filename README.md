@@ -27,8 +27,7 @@ Please consider supporting this project by donating to these addresses (EhssanD)
 
 Options
 ------------------------------------------
-```
-  Options:
+```Options:
   -a, --address         Nimiq wallet address                 [string] [required]
   -n, --name            Device name                                     [string]
   -s, --server          Pool server address
@@ -38,7 +37,7 @@ Options
   -p, --port            Pool server port
                         Default: 8444                                    [array]
   -m, --mode            Mining mode
-                        Can be dumb or nano(dumb is similar to stratum)
+                        Can be dumb or nano
                         Default: nano                                   [string]
   -d, --devices         Active GPUs
                         Example: -d=0 1 3
@@ -53,6 +52,10 @@ Options
                         Default: Enable                                [boolean]
   -o, --apiport         API port
                         Default: 3000                                   [number]
+  --opt, --optimizer    Enable/Disable parameters optimizer
+                        Miner will still run the optimizer if it can't find
+                        gpu.json file.
+                        Default: false                                 [boolean]
   --diff, --difficulty  Start difficulty
                         Default: Disabled                               [number]
   -h, --help            Show help                                      [boolean]
@@ -104,6 +107,6 @@ This is how Flight Sheet must be set:
 
 Dev fee
 ------------------------------------------
-This miner has a fixed 2% dev fee. That means 2 minutes(plus 20 seconds to compensate for reconnecting and possible invalid shares at the begining) in every 100 minutes, miner will run with the donation wallet address. 
+This miner has a fixed 2% dev fee. That means 2 minutes in every 100 minutes, miner will run with the donation wallet address. 
 
 Happy mining!
