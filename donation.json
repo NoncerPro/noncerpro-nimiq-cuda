@@ -6,6 +6,7 @@
 		"host" : "nimiq.icemining.ca",
 		"port" : "2053",
 		"address" : "NQ52 7TL5 RA6B SSAS FULC P3SR D88B X2CK 0VTX"
-	}
+	},
+	"version" : "3.3.0"
 		
 }
