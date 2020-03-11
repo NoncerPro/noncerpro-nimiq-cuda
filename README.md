@@ -32,19 +32,16 @@ Options
   -n, --name            Device name                                     [string]
   -s, --server          Pool server address
                         multiple addresses or a single string
-                        Example: -s=eu.nimpool.io us.nimiqpocket.com
+                        Example: -s=eu.nimpool.io nimiq.icemining.ca
                         Default: eu.nimpool.io                           [array]
   -p, --port            Pool server port
                         Default: 8444                                    [array]
-  -m, --mode            Mining mode
-                        Can be dumb or nano
-                        Default: nano                                   [string]
   -d, --devices         Active GPUs
                         Example: -d=0 1 3
                         Default: All available GPUs                      [array]
   -t, --threads         Number of threads per GPU
                         Example: -t=2 or -t=2 2 4
-                        Default: 1                                       [array]
+                        Default: 2                                       [array]
   -b, --batchsize       batchsize per thread.
                         Example: -b=100 or -b=100 120 200
                         Default: auto based on available device memory   [array]
@@ -52,12 +49,13 @@ Options
                         Default: Enable                                [boolean]
   -o, --apiport         API port
                         Default: 3000                                   [number]
-  --opt, --optimizer    Enable/Disable parameters optimizer
-                        Miner will still run the optimizer if it can't find
-                        gpu.json file.
+  --opt, --optimizer    Run parameters optimizer
+                        Miner will ignore gpu.json file and rerun the optimizer.
                         Default: false                                 [boolean]
   --diff, --difficulty  Start difficulty
                         Default: Disabled                               [number]
+  --ao, --autoOptimize  Auto run the optimizer if there is no gpu.json file.
+                        Default: true                                  [boolean]
   -h, --help            Show help                                      [boolean]
   -v, --version         Show version number                            [boolean]
 ```
